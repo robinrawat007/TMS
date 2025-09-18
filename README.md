@@ -26,3 +26,6 @@ pass: admin@123
 USER
 email: user@tms.com
 pass: user@123
+
+Clone the repo:
+   git clone https://github.com/robinrawat007/TMS.git
