@@ -1,12 +1,28 @@
-# React + Vite
+Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Task Manager built with React, Redux, React Router, and Framer Motion.  
+It allows users to create, update, delete, and assign tasks in an interactive and visually appealing UI.
+Admin can also add new user to the project.
 
-Currently, two official plugins are available:
+Features
+- User authentication & role-based access (Admin/User)
+- Task creation, editing, and deletion
+- Assign tasks to users
+- Responsive UI design
+- Form validation using React Hook Form
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
 
-## Expanding the ESLint configuration
+- Frontend: React, Redux Toolkit, React Router
+- UI & Animations: Tailwind CSS, Framer Motion
+- State Management: Redux (with async thunks)
+- Backend: Mock API data
+- Others: React Hook Form, Lucide Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+auth
+ADMIN
+email: admin@tms.com
+pass: admin@123
+USER
+email: user@tms.com
+pass: user@123
